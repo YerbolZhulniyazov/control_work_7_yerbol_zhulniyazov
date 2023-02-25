@@ -1,0 +1,86 @@
+[
+{
+  "model": "webapp.guestbook",
+  "pk": 1,
+  "fields": {
+    "status": "active",
+    "author_name": "2pac",
+    "author_email": "2pac@gmail.com",
+    "text": "Only God can judge me!",
+    "created_at": "2023-02-25T09:57:56.746Z",
+    "updated_at": "2023-02-25T10:06:38.744Z",
+    "is_deleted": true,
+    "deleted_at": "2023-02-25T10:06:38.744Z"
+  }
+},
+{
+  "model": "webapp.guestbook",
+  "pk": 2,
+  "fields": {
+    "status": "active",
+    "author_name": "Eminem",
+    "author_email": "eminem@emimnem.com",
+    "text": "Yo,\r\nHis palms are sweaty, knees weak, arms are heavy.There's vomit on his sweater already, mom's spaghetti. He's nervous, but on the surface he looks calm and ready.To drop bombs, but he keeps on forgettin'\r\nWhat he wrote down, the whole crowd goes so loud. He opens his mouth, but the words won't come out\r\nHe's chokin', how, everybody's jokin' now",
+    "created_at": "2023-02-25T09:59:52.819Z",
+    "updated_at": "2023-02-25T09:59:52.819Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "webapp.guestbook",
+  "pk": 3,
+  "fields": {
+    "status": "blocked",
+    "author_name": "Lil Wayne",
+    "author_email": "lil@gmail.com",
+    "text": "A millionaire\r\nI'm a Young Money millionaire, tougher than Nigerian hair. My criteria compared to your career just isn't fair I'm a venereal disease like a menstrual bleed. Through the pencil I leak on the sheet of the tablet in my mind",
+    "created_at": "2023-02-25T10:01:06.357Z",
+    "updated_at": "2023-02-25T10:01:06.357Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "webapp.guestbook",
+  "pk": 4,
+  "fields": {
+    "status": "active",
+    "author_name": "Basta",
+    "author_email": "basta@mail.ru",
+    "text": "Баста здесь! Лови...\r\nГуф!\r\nВсем берегам... Лови центра...\r\n2006... Центра.\r\nРостов - Москва. Москва-Ростов.\r\nНормальная рэпчина, по-любому будет качать.\r\nБас ты здесь?\r\nОни кричали мне: \"Твоя игра проиграна! Корабли потоплены!\"\r\nУбираясь в сопли, плевались воплями.\r\nЯ помню тех, кто, улыбаясь мне в глаза, кидал в спину камни.\r\nДа, времена…",
+    "created_at": "2023-02-25T10:03:12.979Z",
+    "updated_at": "2023-02-25T10:03:12.979Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "webapp.guestbook",
+  "pk": 5,
+  "fields": {
+    "status": "blocked",
+    "author_name": "Dr dre",
+    "author_email": "Dr@gmail.com",
+    "text": "Yeah, nigga\r\nI'm still fucking with you\r\nStill waters run deep\r\nStill Snoop Dogg and D-R-E, '99 nigga\r\nGuess who's back?\r\nStill, doing that shit Andre?\r\n(Oh for sho', check me out)",
+    "created_at": "2023-02-25T10:04:22.157Z",
+    "updated_at": "2023-02-25T10:04:22.157Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "webapp.guestbook",
+  "pk": 6,
+  "fields": {
+    "status": "active",
+    "author_name": "nicki minaj",
+    "author_email": "minaj@gmail.com",
+    "text": "My anaconda don't, my anaconda don't\r\nMy anaconda don't want none unless you got buns, hun\r\nBoy toy named Troy used to live in Detroit\r\nBig, big, big money, he was gettin' some coins\r\nWas in shootouts with the law, but he live in a palace\r\nBought me Alexander McQueen, he was keeping me stylish",
+    "created_at": "2023-02-25T10:05:46.412Z",
+    "updated_at": "2023-02-25T10:05:46.413Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+}
+]
