@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}Record confirm delete{% endblock %}
+{% block menu %}
+    <li><a href="{% url 'index' %}"> Home</a></li>
+    <li><a href="{% url 'add_record' %}">Добавить Задачу</a></li>
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <h1>Вы действительно хотите удалить данную запись?:</h1>
+        <div class="card" style="width: 30rem;">
+            <div class="card-body">
+                <h5 class="card-title">{{ record.author_name }}</h5>
+                <p class="card-text">{{ record.text }}</p>
+            </div>
+        </div>
+            <form action="{% url 'confirm_delete' record.pk %}" method="post">
+                {% csrf_token %}
+                <div class="buttons">
+                    <p><input type="submit" button type="button" class="btn btn-danger" value="Удалить"></p>
+                    <p><a href="{% url 'index' %}" button type="button" class="btn btn-primary">Отмена</a></p>
+                </div>
+            </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Update Record{% endblock %}
+{% block menu %}
+    <li><a href="{% url 'index' %}"> Home</a></li>
+    <li><a href="{% url 'add_record' %}">Добавить запись</a></li>
+{% endblock %}
+
+{% block content %}
+    <h1>Редактировать Запись</h1>
+    <form method="POST" action="{% url 'record_update' record.pk %}">
+     {% include 'partial/record_form.html' with button_text='Сохранить' %}
+    </form>
+{% endblock %}
