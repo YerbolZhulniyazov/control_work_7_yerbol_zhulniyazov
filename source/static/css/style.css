@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover !important;
+    background: url("/static/img/background.png") no-repeat;
+    color: #222222;
+    font-size: 16px;
+}
+
+h1 {
+    color: rgb(220, 167, 124);
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    color: rgb(111, 187, 9);
+}
+
+.container {
+    margin: 0 auto;
+    width: 1175px;
+}
+
+.navbar {
+    display: block;
+    background: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-size: 0;
+    box-sizing: border-box;
+    padding: 7px 30px;
+}
+
+.menu {
+    font-size: 14px;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    color: #fffee8;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    padding: 5px 15px;
+}
+
+.menu a:hover {
+    color: #ffc122;
+    text-decoration: underline;
+}
+
+.icons-align {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.card {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+label  {
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-primary {
+    margin-left: 20px;
+}
